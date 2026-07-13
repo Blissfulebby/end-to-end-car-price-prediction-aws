@@ -4,6 +4,13 @@
 
 # 🚗 End-to-End Used Car Price Prediction on AWS
 
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?logo=amazonaws&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?logo=github&logoColor=white)
+
 ## 📌 Project Overview
 
 This project is an end-to-end Machine Learning application that predicts the selling price of used cars based on vehicle characteristics. It demonstrates the complete machine learning workflow—from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, deployment with Streamlit, and cloud hosting on AWS EC2.
