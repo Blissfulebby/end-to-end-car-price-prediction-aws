@@ -230,14 +230,6 @@ streamlit run car_price_app.py
 
 GitHub: https://github.com/Blissfulebby
 
-
-- Python
-- SQL
-- Power BI
-- Machine Learning
-- AWS
-- Streamlit
-
 ---
 
 ## ⭐ If you found this project helpful, please consider giving it a star!
