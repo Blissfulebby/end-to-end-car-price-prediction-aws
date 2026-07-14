@@ -220,7 +220,16 @@ streamlit run car_price_app.py
 
 **Agatha Onwudiwe**
 
-Data Scientist & Data Analyst
+**Data Scientist | Data Analyst**
+
+📧 Email: agatha.onwudiwe@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/agatha-onwudiwe-86b87215b
+
+🌐 Portfolio: https://blissfulebby.github.io/AggiePortfolio
+
+GitHub: https://github.com/Blissfulebby
+
 
 - Python
 - SQL
