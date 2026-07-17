@@ -96,26 +96,29 @@ Target Variable:
 
 ---
 
-# 🤖 Models Evaluated
+## 🤖 Models Evaluated
 
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 
-After evaluation, the **Random Forest Regressor** was selected as the final model because it delivered the best predictive performance.
+After evaluating the models, the **Random Forest Regressor** was selected as the final model because it achieved the best predictive performance.
 
+---
 
 ## 📊 Model Performance
 
 The machine learning models were evaluated using the **R² (Coefficient of Determination)** metric.
 
 | Model | R² Score |
-|--------|----------:|
-| Decision Tree Regressor | 0.89 |
+|--------|---------:|
+| Random Forest Regressor | **0.89** |
 
-### Key Result
+### 🎯 Key Result
+
+- **Best Model:** Random Forest Regressor
 - **R² Score:** **0.89**
-- The model explains approximately **89% of the variance** in used car prices, indicating strong predictive performance on the evaluation dataset.
+- The selected model explains approximately **89% of the variance** in used car prices, demonstrating strong predictive performance on the evaluation dataset.
 
 ---
 
