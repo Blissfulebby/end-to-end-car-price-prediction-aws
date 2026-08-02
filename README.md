@@ -11,7 +11,7 @@
 ![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?logo=amazonaws&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?logo=github&logoColor=white)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is an end-to-end Machine Learning application that predicts the selling price of used cars based on vehicle characteristics. It demonstrates the complete machine learning workflow—from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, deployment with Streamlit, and cloud hosting on AWS EC2.
 
@@ -19,7 +19,7 @@ The project was built to showcase practical Data Science and Machine Learning sk
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Pricing used vehicles accurately is essential for dealerships, online marketplaces, and private sellers. Manual pricing is often subjective and inconsistent.
 
@@ -27,7 +27,7 @@ This application predicts the estimated selling price of a used vehicle based on
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The objective of this project is to develop a machine learning regression model capable of predicting used car selling prices based on vehicle specifications.
 
@@ -40,7 +40,7 @@ The solution provides:
 
 ---
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 | Category | Technology |
 |-----------|------------|
@@ -56,7 +56,7 @@ The solution provides:
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The dataset contains information about used vehicles including:
 
@@ -71,7 +71,7 @@ The dataset contains information about used vehicles including:
 
 ---
 
-# 🔍 Features Used for Model Training
+#  Features Used for Model Training
 
 - Brand
 - Model
@@ -87,7 +87,7 @@ Target Variable:
 
 ---
 
-# ⚙️ Machine Learning Workflow
+#  Machine Learning Workflow
 
 ✔ Data Cleaning
 
@@ -109,7 +109,7 @@ Target Variable:
 
 ---
 
-## 🤖 Models Evaluated
+##  Models Evaluated
 
 - Linear Regression
 - Decision Tree Regressor
@@ -119,7 +119,7 @@ After evaluating the models, the **Random Forest Regressor** was selected as the
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 The machine learning models were evaluated using the **R² (Coefficient of Determination)** metric on both training and test datasets to assess model performance and generalization ability.
 
@@ -130,7 +130,7 @@ The machine learning models were evaluated using the **R² (Coefficient of Deter
 | Random Forest Regressor | 0.98 | **0.89** |
 
 
-### 🎯 Key Result
+###  Key Result
 
 - **Best Performing Model:** Random Forest Regressor
 - **Train R² Score:** 0.98
@@ -142,7 +142,7 @@ Although Decision Tree achieved a higher training score, Random Forest demonstra
 
 ---
 
-# 📊 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 ## Feature Importance
 
@@ -168,7 +168,7 @@ Although Decision Tree achieved a higher training score, Random Forest demonstra
 
 ---
 
-# 💻 Streamlit Web Application
+#  Streamlit Web Application
 
 The application allows users to enter vehicle information and instantly receive a predicted selling price.
 
@@ -192,7 +192,7 @@ Deployment included:
 > **Note:** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
 ---
 
-# 🏗️ Deployment Architecture
+#  Deployment Architecture
 
 ```text
 
@@ -216,7 +216,7 @@ The deployed solution connects the trained machine learning model with a user-fr
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 end-to-end-car-price-prediction-aws/
@@ -236,7 +236,7 @@ end-to-end-car-price-prediction-aws/
 └── README.md                        # Project documentation
 
 ```
-# 🚀 Installation
+#  Installation
 
 Clone the repository
 
@@ -258,7 +258,7 @@ streamlit run car_price_app.py
 
 ---
 
-# 📈 Skills Demonstrated
+#  Skills Demonstrated
 
 - Data Cleaning
 - Exploratory Data Analysis
@@ -273,7 +273,7 @@ streamlit run car_price_app.py
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Potential future enhancements include:
 
@@ -286,7 +286,7 @@ Potential future enhancements include:
 
 ---
 
-# 👩🏽‍💻 Author
+# 👩 Author
 
 **Agatha Onwudiwe**
 
