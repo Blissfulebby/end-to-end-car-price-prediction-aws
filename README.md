@@ -275,7 +275,7 @@ streamlit run car_price_app.py
 
 # 🚀 Future Improvements
 
-Future improvements for this project include:
+Potential future enhancements include:
 
 - Containerize the application using Docker
 - Implement CI/CD pipeline using GitHub Actions
