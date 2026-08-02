@@ -194,17 +194,21 @@ Deployment included:
 
 # 🏗️ Deployment Architecture
 
-The application follows an end-to-end machine learning deployment workflow:
-
+```text
 User Input
+     |
      ↓
-Streamlit App
+Streamlit Web Application
+     |
      ↓
-Model (.pkl)
+Trained Random Forest Model (.pkl)
+     |
      ↓
-Prediction
+Price Prediction Output
+     |
      ↓
-AWS EC2
+AWS EC2 Hosting
+```
 
 The deployed solution connects the trained machine learning model with a user-friendly Streamlit interface. Users can enter vehicle details, and the application processes the input through the trained Random Forest model to generate an estimated selling price.
 
@@ -269,7 +273,7 @@ streamlit run car_price_app.py
 
 # 🚀 Future Improvements
 
-Potential future enhancements include:
+Future improvements for this project include:
 
 - Containerize the application using Docker
 - Implement CI/CD pipeline using GitHub Actions
