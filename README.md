@@ -189,7 +189,7 @@ Deployment included:
 - Running the Streamlit application
 - Hosting the application through a public IP address
 
-> ** Note: ** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
+> **Note:** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
 ---
 
 # 🏗️ Deployment Architecture
