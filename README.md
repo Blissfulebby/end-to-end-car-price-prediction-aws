@@ -192,8 +192,6 @@ Deployment included:
 > ** Note: ** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
 ---
 
----
-
 # 🏗️ Deployment Architecture
 
 The application follows an end-to-end machine learning deployment workflow:
@@ -210,6 +208,7 @@ AWS EC2
 
 The deployed solution connects the trained machine learning model with a user-friendly Streamlit interface. Users can enter vehicle details, and the application processes the input through the trained Random Forest model to generate an estimated selling price.
 
+---
 
 # 📁 Project Structure
 
@@ -250,7 +249,6 @@ Run the Streamlit application
 
 ```bash
 streamlit run car_price_app.py
-```
 
 ---
 
@@ -266,6 +264,19 @@ streamlit run car_price_app.py
 - AWS EC2 Deployment
 - Git & GitHub
 - Python Programming
+
+---
+
+# 🚀 Future Improvements
+
+Future enhancements planned for this project include:
+
+- Containerize the application using Docker
+- Implement CI/CD pipeline using GitHub Actions
+- Track machine learning experiments using MLflow
+- Add model monitoring and performance tracking
+- Deploy using scalable AWS services such as Elastic Beanstalk or ECS
+- Experiment with advanced machine learning models such as XGBoost and LightGBM
 
 ---
 
