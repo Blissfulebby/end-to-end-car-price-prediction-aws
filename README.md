@@ -236,7 +236,6 @@ end-to-end-car-price-prediction-aws/
 └── README.md                        # Project documentation
 
 ```
-
 # 🚀 Installation
 
 Clone the repository
@@ -255,6 +254,11 @@ Run the Streamlit application
 
 ```bash
 streamlit run car_price_app.py
+```
+
+---
+
+# 📈 Skills Demonstrated
 
 ---
 
