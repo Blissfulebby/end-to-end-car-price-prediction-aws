@@ -260,10 +260,6 @@ streamlit run car_price_app.py
 
 # 📈 Skills Demonstrated
 
----
-
-# 📈 Skills Demonstrated
-
 - Data Cleaning
 - Exploratory Data Analysis
 - Feature Engineering
