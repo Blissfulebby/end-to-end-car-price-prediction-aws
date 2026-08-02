@@ -27,6 +27,19 @@ This application predicts the estimated selling price of a used vehicle based on
 
 ---
 
+## 🎯 Project Objective
+
+The objective of this project is to develop a machine learning regression model capable of predicting used car selling prices based on vehicle specifications.
+
+The solution provides:
+
+- Accurate price estimation
+- Data-driven pricing insights
+- A user-friendly prediction interface through Streamlit
+- A deployable machine learning application
+
+---
+
 # 🛠️ Technology Stack
 
 | Category | Technology |
