@@ -195,6 +195,7 @@ Deployment included:
 # 🏗️ Deployment Architecture
 
 ```text
+
 User Input
      |
      ↓
@@ -208,6 +209,7 @@ Price Prediction Output
      |
      ↓
 AWS EC2 Hosting
+
 ```
 
 The deployed solution connects the trained machine learning model with a user-friendly Streamlit interface. Users can enter vehicle details, and the application processes the input through the trained Random Forest model to generate an estimated selling price.
