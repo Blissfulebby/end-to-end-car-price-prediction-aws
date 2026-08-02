@@ -121,17 +121,24 @@ After evaluating the models, the **Random Forest Regressor** was selected as the
 
 ## 📊 Model Performance
 
-The machine learning models were evaluated using the **R² (Coefficient of Determination)** metric.
+The machine learning models were evaluated using the **R² (Coefficient of Determination)** metric on both training and test datasets to assess model performance and generalization ability.
 
-| Model | R² Score |
-|--------|---------:|
-| Random Forest Regressor | **0.89** |
+| Model | Train R² Score | Test R² Score |
+|--------|---------------:|--------------:|
+| Linear Regression | 0.77 | 0.70 |
+| Decision Tree Regressor | 0.99 | 0.79 |
+| Random Forest Regressor | 0.98 | **0.89** |
+
 
 ### 🎯 Key Result
 
-- **Best Model:** Random Forest Regressor
-- **R² Score:** **0.89**
-- The selected model explains approximately **89% of the variance** in used car prices, demonstrating strong predictive performance on the evaluation dataset.
+- **Best Performing Model:** Random Forest Regressor
+- **Train R² Score:** 0.98
+- **Test R² Score:** **0.89**
+
+The Random Forest model achieved the highest test performance, explaining approximately **89% of the variance** in used car prices on unseen data.
+
+Although Decision Tree achieved a higher training score, Random Forest demonstrated better generalization and was selected as the final model for deployment.
 
 ---
 
@@ -182,9 +189,27 @@ Deployment included:
 - Running the Streamlit application
 - Hosting the application through a public IP address
 
-> **Note:** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
+> ** Note: ** The live deployment is currently unavailable because the AWS Free Tier account has expired. The complete source code remains available in this repository and can be redeployed.
+---
 
 ---
+
+# 🏗️ Deployment Architecture
+
+The application follows an end-to-end machine learning deployment workflow:
+
+User Input
+     ↓
+Streamlit App
+     ↓
+Model (.pkl)
+     ↓
+Prediction
+     ↓
+AWS EC2
+
+The deployed solution connects the trained machine learning model with a user-friendly Streamlit interface. Users can enter vehicle details, and the application processes the input through the trained Random Forest model to generate an estimated selling price.
+
 
 # 📁 Project Structure
 
@@ -192,21 +217,20 @@ Deployment included:
 end-to-end-car-price-prediction-aws/
 │
 ├── images/
-│   ├── banner.png
-│   ├── streamlit_app.png
-│   ├── feature_importance.png
-│   ├── correlation_heatmap.png
-│   └── outlier_boxplots.png
+│   ├── banner.png                  # Project banner
+│   ├── streamlit_app.png            # Application screenshot
+│   ├── feature_importance.png       # Feature importance visualization
+│   ├── correlation_heatmap.png      # Correlation analysis
+│   └── outlier_boxplots.png         # Outlier detection plots
 │
-├── car_data_v2.csv
-├── car_price.pkl
-├── car_price_app.py
-├── train_app.py
-├── requirements.txt
-└── README.md
-```
+├── car_data_v2.csv                  # Used car dataset
+├── car_price.pkl                    # Trained Random Forest model
+├── car_price_app.py                 # Streamlit prediction application
+├── train_app.py                     # Model training script
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 
----
+```
 
 # 🚀 Installation
 
